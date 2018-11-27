@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "lint": "eslint **/*.js",
+    "lint": "eslint .",
     "watch": "nodemon index.js",
     "test-watch": "jest --watchAll",
     "test": "jest --verbose --coverage"
